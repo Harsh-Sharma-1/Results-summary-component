@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/images/favicon-32x32.png"
+        />
+
+        <title>Frontend Mentor | Results summary component</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="left">
+                <div class="left__heading">Your Result</div>
+                <div class="left__score">
+                    <h1 class="left__result">76</h1>
+                    <p class="left__outof">of 100</p>
+                </div>
+                <h1 class="left__comment">Great</h1>
+                <p class="left__description">
+                    You scored higher than 65% of the people who have taken
+                    these tests.
+                </p>
+            </div>
+            <div class="right">
+                <h1 class="right__heading">Summary</h1>
+                <ul class="right__list">
+                    <li class="right__listItem">
+                        <div class="right__itemName">
+                            <img
+                                src="./assets/images/icon-reaction.svg"
+                                alt=""
+                            />
+                            <p>Reaction</p>
+                        </div>
+                        <div class="right__itemInfo">
+                            <p class="right__itemScore">80</p>
+                            <p>/</p>
+                            <p class="right__outoff">100</p>
+                        </div>
+                    </li>
+                    <li class="right__listItem">
+                        <div class="right__itemName">
+                            <img src="./assets/images/icon-memory.svg" alt="" />
+                            <p>Memory</p>
+                        </div>
+                        <div class="right__itemInfo">
+                            <p class="right__itemScore">92</p>
+                            <p>/</p>
+                            <p class="right__outoff">100</p>
+                        </div>
+                    </li>
+                    <li class="right__listItem">
+                        <div class="right__itemName">
+                            <img src="./assets/images/icon-verbal.svg" alt="" />
+                            <p>Verbal</p>
+                        </div>
+                        <div class="right__itemInfo">
+                            <p class="right__itemScore">61</p>
+                            <p>/</p>
+                            <p class="right__outoff">100</p>
+                        </div>
+                    </li>
+                    <li class="right__listItem">
+                        <div class="right__itemName">
+                            <img src="./assets/images/icon-visual.svg" alt="" />
+                            <p>Visual</p>
+                        </div>
+                        <div class="right__itemInfo">
+                            <p class="right__itemScore">72</p>
+                            <p>/</p>
+                            <p class="right__outoff">100</p>
+                        </div>
+                    </li>
+                </ul>
+                <button class="right__button">Continue</button>
+            </div>
+        </div>
+    </body>
+</html>
